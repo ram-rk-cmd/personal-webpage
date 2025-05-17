@@ -1,428 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link rel="stylesheet" href="styles.css">
-        <!--for fontawesome icons-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    
-        <!-- =====BOX ICONS===== -->
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+       
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-
-        <title>Sourabh Kothari</title>
-        <link rel="icon" type="image/png" href="images/favicon.ico">
+        <meta name="theme-color" content="#3d0665">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="nav.css">
+        <script type="application/ld+json">
+           </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NT603LFCT4"></script>
+        <script>
+            function gtag() {
+                dataLayer.push(arguments)
+            }
+            window.dataLayer = window.dataLayer || [],
+            gtag("js", new Date),
+            gtag("config", "G-NT603LFCT4")
+        </script>
+        <title>About - Ramkumar</title>
+       
     </head>
     <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo"><i class="bx bx-log-in"></i> Sourabh Kothari</a>
+        <header class="header">
+            <div class="head_container">
+                <a href="/" class="logo">
+                    <img class="logo_img" width="75" height="75" src="images/ram.jpg" alt="Ram logo" title="Ramkumar">
+                </a>
+                <div class="nav_container">
+                    <nav class="navbar">
+                        <div class="nav_links">
+                            <a href="/">Home</a>
+                            <a href="project.html">Projects</a>
+                            <a href="/achievements.html">Achievements</a>
+                            <a href="/about.html">About me</a>
+                            <a href="/contact.html">Contact</a>
+                        </div>
+                        <img width="40" height="40" alt="menu" src="images/menu.svg" class="menu_toggle" aria-label="Toggle Menu" title="menu">
+                    </nav>
+                    <a href="resume/Ram-Resume.pdf" download class="resume_btn" aria-label="Download Resume">
+                        <span>Resume</span>
+                        <svg class="download_icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" y1="15" x2="12" y2="3"/>
+                        </svg>
+                    </a>
                 </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active"><i class="bx bx-home"></i> Home</a></li>
-                        <li class="nav__item"><a href="/about.html" class="nav__link"><i class="bx bxs-spreadsheet"></i> About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link"><i class="bx bx-book"></i> Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link"><i class="bx bxl-javascript"></i> Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link"><i class="bx bx-phone-outgoing"></i> Contact</a></li>
-                        
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
+            </div>
         </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sourabh</span>,<br>A Software Engineer</h1>
-
-                    <a href="https://www.linkedin.com/in/sourabh--k-/" target="_blank" class="button"><i class="bx bxs-coffee"></i> Let's Connect</a>
+        <div class="container">
+            <section class="main-hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm Ramkumar</h1>
+                    <p class="hero-description">
+                        I love building anything interesting and challenging — from web apps and APIs to innovative tools and systems. I enjoy turning ideas into real, functional solutions, and I'm always up for learning something new and pushing my limits. This site is a reflection of that journey — showcasing what I’ve built, learned, and continue to explore.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/ram-rk-cmd" target="_blank" class="social-link">View GitHub</a>
+                        | <a href="https://www.linkedin.com/in/ramkumar-r-0187052b4/" target="_blank" class="social-link">Connect on LinkedIn</a>
+                    </div>
                 </div>
-
-                <div class="home__social">
-                    <a href="https://github.com/golemvincible" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/sourabh--k-/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://twitter.com/sourabhjain220" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://www.instagram.com/sourabh__k_/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                </div>
-                <div class="home__img">    
-                    <img src="images/pfi.jpg" alt="">
-                    <!--<p class="about__subtitle">Big Things often have Small Beginnings</p>-->
-                </div>
-
             </section>
-
-        <!--===== ABOUT
-            <section class="about section " id="about">
-                
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="images/abt.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Hey There,<br/>My name is Sourabh Kothari,</h2>
-                        <p class="about__text">
-                            I'm a final year student at <span style="color:#4070F4;" class="">MediCaps University</span> majored in Computer Science. 
-                        	<br/> <br/> 
-                            My areas of interest include problem-solving and MERN stack development.
-                            <br><br>
-                            With a detail oriented-focus, I enjoy creating simple but effective solutions to improve application performance, ease of maintenance, and user experience.
-                        </p>           
-                    </div>                                   
-                </div>
-            </section>  =====-->
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Languages</h2>
-                       
-                        <!-- languages -->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Java</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">JavaScript</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">SQL</span>
-                            </div>
-                        </div>                        
-                                             
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">C++</span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">C</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="images/lang.png" alt="" class="skills__img">
-                    </div>
-                </div><br/><br/><br/><br/><br/>
-
-                <div class="skills__container bd-grid">                        
-                    <div>              
-                        <img src="images/hotelmgmt.svg" alt="" class="skills__img">
-                    </div>
-
-                    <div>
-                        <h2 class="skills__subtitle">Web Technologies and Frameworks</h2>
-                        <!-- frameworks-->
-                        
-                        
-                
-                        <!-- web technologies -->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">JSP - Servlet - Java Database Connectivity</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">React.js</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Bootstrap</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Redux</span>
-                            </div>
-                        </div>
-                         <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Node.js, Express.js</span>
-                            </div>
-                        </div>                       
-                    </div>                    
-                </div><br/><br/><br/><br/><br/>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Databases</h2>
-                       
-                        <!-- databases -->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">MySQL</span>
-                            </div>
-                        </div>
-                         <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">MongoDB</span>
-                            </div>
-                        </div>                       
-                         <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">Google Firebase</span>
-                            </div>
-                        </div>                       
-                        
-                    </div>
-                    
-                    <div>              
-                        <img src="images/databases5.svg" alt="" class="skills__img">
-                    </div>
-                </div>          
-            </section>
-
-
-             <!--===== ABOUT section formatting for projects =====-->
-            <section class="about section " id="work">
-                <h2 class="section-title">Projects</h2>
-                    
-                                
-
-                <div class="about__container bd-grid">
-                    <div>
-                        <h2 class="about__subtitle">SlayTurn</h2>
-                        <p class="about__text">SlayTurn, A shopping web application is a blend of tech tools that work seamlessly together. Its user-friendly frontend employs HTML5, CSS3, JavaScript, React.js, Ajax, Bootstrap, Redux, and Styled-components to deliver an engaging interface. On the backend, Node.js and Express.js provide the backbone, ensuring the system's efficiency, while MongoDB manages data effectively. To top it off, Stripe payment integration adds a layer of convenience and security to financial transactions<br/> 
-                            <div class="circle">
-                                
-                                <a href="https://github.com/golemvincible/SlayTurn" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>              
-                                <a href="https://slayturn.vercel.app/" target="_blank" class='home__social-icon'><i class="bx bx-right-top-arrow-circle"></i></a>    
-                            </div>          
-                        </p>
-                    </div>  
-
-                    <div class="about__img">
-                        <img src="images/fashionpoint.jpg" alt="">
-                    </div>                                                     
-                </div><br/><br/><br/>
+        </div>
     
-                 <div class="about__container bd-grid">
-                   <div class="about__img">
-                        <img src="images/hospitalmgmt.svg" alt="">
-                    </div> 
-                     
-                    <div>
-                        <h2 class="about__subtitle">WeCare</h2>
-                        <p class="about__text">
-                            WeCare, built in Java and employing the MVC architecture, efficiently handles hospital operations. It separates into Model (data and logic), View (user interface), and Controller (input handling), offering a modular and user-friendly solution for tasks like patient management, appointment scheduling, admin controls etc.
-                            <br>
-                            <a href="https://github.com/golemvincible/WeCare.git" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                                           
-                        </p>
-                    </div>                                   
-                </div><br/><br/><br/>
-   
-                <div class="about__container bd-grid">                 
-                     <div>
-                        <h2 class="about__subtitle">Path-Finder</h2>
-                        <p class="about__text">
-                            Developed an interactive web-based visualizer using HTML, CSS, and JavaScript, offering insights into path finding algorithms like BFS, DFS, Dijkstra's, A*, and more.
-                            <br>
-                            Enhanced the project's versatility by incorporating Prim's algorithm with Euclidean distance heuristic, enabling users to explore minimum spanning trees, while also providing a clear visualization of topological sorting.
-                            <br>
-                            <a href="https://github.com/golemvincible/Algorithm-Visualizer" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                            <a href="https://graphalgosvis.vercel.app/" target="_blank" class='home__social-icon'><i class="bx bx-right-top-arrow-circle"></i></a>    
-                            
-                        </p>
-                    </div>  
-                    
-                    <div class="about__img">
-                        <img src="images/research_paper_ml.jpg" alt="">
-                    </div>                      
-                </div>
-                 
-                <!-- <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="images/clgclubs.svg" alt="">
-                    </div>  
-                    
-                    <div>
-                        <h2 class="about__subtitle">Railway Ticket Booking System</h2>
-                        <p class="about__text">A Railway Ticket Booking System desktop application using Swing is a graphical user interface (GUI) application built in Java Swing framework that allows users to book train tickets. 
-                            <br/>All the train informations details at one place for people (irrespective of their age), user-friendly interface to alter changes. <br/>
-
-                            <a href="" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                        </p>
-                    </div>                                      
-                </div><br/><br/><br/>
-                 -->
-            </section>
-
-            <!--==== Contact Me-->
-            <section class="about section" id="contact">
-                <h2 class="section-title">Contact me</h2>
-                <div class="about__container bd-grid">
-
-                    <div class="formbold-main-wrapper">
-                        
-                        <div class="formbold-form-wrapper">
-                            <div class="port--img">
-                                <img src="images/port3.png" alt="" class="circle--test">
-                            </div>  
-                            <p class="about__text">
-                                I would like to express my gratitude for taking the time to explore my portfolio. 
-                                <br> 
-                                Your visit is greatly appreciated.
-                                <br><br>
-                                I am actively seeking new career opportunities and am open to both internship and full-time software development roles. 
-                                Feel free to review my resume attached for more details.
-                                <br><br>
-                            </p>
-                            <a href="https://drive.google.com/file/d/1_9u_RJtbEhsGF0DttFisH4A07ELJDwrc/view?usp=drivesdk" target="_blank" class="res-btn"><i class="bx bx-download"></i> Resume</a>
-                        </div>
-                        
-                    </div>
-                    <!-- Form -->
-
-                    <div class="formbold-form-wrapper">
-                        <p>If you have any further questions or need additional details, please let me know.</p>
-                        <br>
-                      <form action="https://formsubmit.co/7afaad6eac9b14474f7cd58ad1a55de3" method="POST">
-                        <div class="formbold-mb-5">
-                          <label for="name" class="formbold-form-label"> Full Name </label>
-                          <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Regina Phalange"
-                            class="formbold-form-input"
-                          />
-                        </div>
-                        
-                        <div class="formbold-mb-5">
-                          <label for="email" class="formbold-form-label"> Email Address </label>
-                          <input
-                            type="email"
-                            name="email"
-                            id="email"
-                            placeholder="regina@centralperk.com"
-                            class="formbold-form-input"
-                          />
-                        </div>
-                        <div class="formbold-mb-5">
-                            <label for="message" class="formbold-form-label"> Message </label>
-                            <textarea 
-                                
-                                name="message"
-                                id="message"
-                                placeholder="Write your message here"
-                                class="form--mssg"
-                                rows="6"
-                                cols="50"
-                            ></textarea>
-                        </div>
-                        <div>
-                          <button class="formbold-btn"><i class="bx bxl-telegram"></i> Send Message</button>
-                        </div>
-                      </form>
-                    </div>
-                </div>   
-                  
-            </section>
-
-            
-            <!--===== WORK =====-->
-  <!--           <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="images/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="images/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="images/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="images/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="images/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="images/work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
- -->
- <br/><br/><br/>
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            
-                    <div class="footer__social--parent about__container bd-grid">
-                        <div class="footer__social">
-                            <p class="footer__title">©Sourabh Kothari-2023 <br> kotharisourabh06@gmail.com</p>
-                            
-                        </div>
-                        <div class="footer__social">
-                            <a href="https://www.linkedin.com/in/sourabh--k-/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/golemvincible" class="footer__icon"><i class='bx bxl-github' ></i></a>
-                            <a href="https://twitter.com/sourabhjain220" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-                            <a href="https://www.instagram.com/sourabh__k_/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                            <br>
-                        </div>
-                    </div>
-                    
-            
-             
-            <!-- <div class="footer__social">
-                
-            </div> -->
-            <!-- <p><i class="fa fa-quote-left"></i>
-                <span>  </span>Big Things often have Small Beginnings..<span>  </span>
-                <i class="fa fa-quote-right"></i>
-            </p> -->
-        </footer>
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="s"></script>
+        <script src="scripts.js"></script>
     </body>
 </html>
