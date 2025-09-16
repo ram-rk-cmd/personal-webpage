@@ -1,6 +1,6 @@
 # Ramkumar Portfolio Site
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-ID/deploy-status)](https://ramkumarinfo.netlify.app/)
+<img width="1919" height="972" alt="image" src="https://github.com/user-attachments/assets/a6438499-c6dd-48f9-8379-aeb821ecff0c" />
 
 👉 [Visit Live Site](https://ramkumarinfo.netlify.app/)
 
