@@ -46,20 +46,35 @@ If anyone peeks under the hood, here are some of the technologies and tools used
 
 Here’s how the repo is organized (suggested; adjust to your actual file structure):
 
-/
-├── public/ ← static assets (images, favicon, etc.)
-├── src/ ← site source: HTML, CSS, JS, components
-├── projects/ ← project case studies or demos
-├── achievements/ ← info/data about achievements
-├── about/ ← about me content
-├── contact/ ← contact info, forms, etc.
-├── README.md ← this file
-└── netlify.toml ← configuration for Netlify (if used)
+ramkumar-portfolio/
+│
+├── public/                # Static assets served directly
+│   ├── favicon.ico
+│   ├── robots.txt
+│   └── images/            # Raw images, screenshots, icons
+│
+├── src/                   # Source files for your site
+│   ├── index.html         # Main entry point
+│   ├── css/               # Stylesheets
+│   │   └── style.css
+│   ├── js/                # Scripts
+│   │   └── main.js
+│   ├── components/        # Reusable parts (navbar, footer, etc.)
+│   ├── pages/             # Subpages (about.html, projects.html, etc.)
+│   └── assets/            # Optimized images, fonts, vectors
+│
+├── dist/                  # Production-ready build (auto-generated if you use a bundler)
+│
+├── .gitignore
+├── netlify.toml           # Deployment config for Netlify
+├── package.json           # Dependencies & scripts (if using npm)
+└── README.md              # Project documentation
+
 
 ## 📬 Connecting
 
-- **GitHub**: [github.com/ramkumar](https://github.com/ramkumar)  
-- **LinkedIn**: [linkedin.com/in/ramkumar](https://www.linkedin.com)  
+- **GitHub**: [github.com/ramkumar](https://github.com/ram-rk-cmd)  
+- **LinkedIn**: [linkedin.com/in/ramkumar](https://www.linkedin.com/in/ramkumar-r-0187052b4/)  
 - Email or other methods if you prefer  
 
 
