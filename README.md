@@ -1,5 +1,8 @@
-<iframe width="1919" height="972" alt="image" src="https://ramkumarinfo.netlify.app/" />
+# Ramkumar Portfolio Site
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-ID/deploy-status)](https://ramkumarinfo.netlify.app/)
+
+👉 [Visit Live Site](https://ramkumarinfo.netlify.app/)
 
 
 # Ramkumar Portfolio Site
